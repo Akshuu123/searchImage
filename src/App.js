@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route exact path='/Search' Component={Search}>Search</Route>
+        <Route exact path='/' Component={Search}>Search</Route>
         <Route exact path='*' Component={Error}>Error</Route>
       </Routes>
     </>
