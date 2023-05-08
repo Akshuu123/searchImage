@@ -1,7 +1,7 @@
 {
   "name": "livesearch",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/Akshuu123/searchImage.github.io", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
