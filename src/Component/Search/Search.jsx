@@ -11,7 +11,7 @@ const Search = () => {
     <>
       <Nav />
       <div className='search'>
-        <input type='text' onChange={search} placeholder='Search Anything' />
+        <input type='text' onChange={search} placeholder='Search Any Image' />
         <Result name={cdata} />
       </div>
     </>
