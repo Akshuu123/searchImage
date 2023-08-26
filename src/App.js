@@ -9,8 +9,8 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route exact path='/search' Component={Search}>Search</Route>
-        <Route exact path='*' Component={Error}>Error</Route>
+        <Route exact path='/search' Component={Error}>Search</Route>
+        <Route exact path='*' Component={Search}>Error</Route>
       </Routes>
     </>
   )

@@ -5,7 +5,7 @@ const Result = (props) => {
     return (
         <>
             <div className='img_result'>
-                <img src={img} alt={props.name} />
+                <img src={img} alt={props.name}/>
             </div>
         </>
     )
