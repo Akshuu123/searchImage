@@ -6,7 +6,7 @@ const Search = () => {
   const [cdata, upData] = useState();
   const search = (e) => {
     upData(e.target.value)
-  }
+  } 
   return (
     <>
       <Nav/>
