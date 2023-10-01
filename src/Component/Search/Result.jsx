@@ -2,6 +2,7 @@ import React from 'react'
 
 const Result = (props) => {
     let img = `https://source.unsplash.com/300x300/?${props.name}`
+    
     return (
         <>
             <div className='img_result'>
@@ -10,5 +11,4 @@ const Result = (props) => {
         </>
     )
 }
-
 export default Result;
